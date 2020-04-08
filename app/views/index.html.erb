@@ -1,0 +1,5 @@
+<%= react_component('HelloMessage', name: 'Mike') %>
+
+<%= react_component("ComponentExample", {posts: @posts}) %>
+
+<%= react_component("ComponentExample", {posts: @posts.as_json(only:[:id,:title])}) %>
